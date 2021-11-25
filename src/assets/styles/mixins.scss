@@ -1,0 +1,12 @@
+@import './fonts.scss';
+
+@mixin font400($size, $color: #6a6e71) {
+  font-family: 'OpenSans-Regular';
+  color: $color;
+  font-size: $size;
+}
+@mixin font600($size, $color: #6a6e71) {
+  font-family: 'OpenSans-SemiBold';
+  color: $color;
+  font-size: $size;
+}
